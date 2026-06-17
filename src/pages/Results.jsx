@@ -20,9 +20,8 @@ export default function Result() {
               <td>KUNAL JAIN</td>
             </tr>
 
-            <tr>
-              <td>Unit Applied</td>
-              <td>Final</td>
+            <tr className="white-row">
+              <td>Group I</td>
             </tr>
 
             <tr>
@@ -38,6 +37,20 @@ export default function Result() {
             <tr>
               <td>Advanced Auditing, Assurance and Professional Ethics</td>
               <td>040</td>
+            </tr>
+
+            <tr>
+              <td>Total</td>
+              <td>119</td>
+            </tr>
+
+            <tr className="result-row">
+              <td>Result</td>
+              <td>UNSUCCESSFUL</td>
+            </tr>
+
+            <tr className="white-row">
+              <td>Group II</td>
             </tr>
 
             <tr>
@@ -57,31 +70,29 @@ export default function Result() {
 
             <tr>
               <td>Total</td>
-              <td>249/600</td>
+              <td>130</td>
             </tr>
 
             <tr className="result-row">
               <td>Result</td>
               <td>UNSUCCESSFUL</td>
             </tr>
+
+            <tr>
+              <td>Grand Total</td>
+              <td>249</td>
+            </tr>
           </tbody>
         </table>
 
         <div className="result-notes">  
           <p>
-          'E' Indicates Marks obtained in an earlier attempt<br />
-            -C- Indicates papers already passed in erstwhile
-            Intermediate Examination under para 2A of
-            Schedule 'B' to the Chartered Accountants
-            Regulations, 1988/Professional Education
-            (Examination-I)/Professional Competence
-            Examination/Integrated Professional Competence
-            Examination/Intermediate (IPC)/Accounting
-            Technician Examination/Intermediate.
+            'E' Indicates Marks obtained in an earlier attempt <br />
+            '&lt;' Indicates passed under CA Regulations, 1988.
           </p>
 
           <p>
-            *50E Indicates permanent exemption in paper(s)
+            '50E' Indicates permanent exemption in paper(s)
             with the condition of minimum 50% marks in each
             of the remaining paper(s).
           </p>

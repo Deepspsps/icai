@@ -233,6 +233,18 @@ body {
 .result-row td {
   color: #ffff66 !important;
 }
+
+.white-row{
+  background: #ffffff !important;
+  color: #3b3a3a !important;
+  font-weight: bold;
+}
+
+.white-row td {
+  border-left: none !important;
+  border-right: none !important;
+}
+
 .result-table tr:nth-child(odd) {
   background: #9a009a;
   color: white;
